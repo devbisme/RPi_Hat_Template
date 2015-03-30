@@ -15,6 +15,8 @@ Both a thru-hole and a surface mount connector are provided, along with a differ
 PCB edge for each. Just keep the PCB edge and connector type that you're using for your design
 and delete the others.
 
+The component footprints used in this template are [here](https://github.com/xesscorp/RPi_Hat.pretty).
+
 The board outline looks like this:
 
 <img src="brd.png" style="width:100%">
