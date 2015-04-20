@@ -15,8 +15,28 @@
 <h2 id="expansion-board">Expansion Board</h2>
 <p>This is a project template for a <a href="https://github.com/raspberrypi/hats">Raspberry Pi B+ Hat</a>.</p>
 <p>This base project includes a PCB edge defined according to <a href="https://github.com/raspberrypi/hats/blob/master/hat-board-mechanical.pdf">this specification</a>. Both a thru-hole and a surface mount connector are provided, along with a different PCB edge for each. Just keep the PCB edge and connector type that you're using for your design and delete the others.</p>
+<p>The component footprints used in this template are <a href="https://github.com/xesscorp/RPi_Hat.pretty">here</a>.</p>
 <p>The board outline looks like this:</p>
 <p><img src="brd.png" style="width:100%"></p>
+<h2 id="using-the-template">Using the Template</h2>
+<p>To use the Raspberry Pi Hat template with the through-hole connector, do the following:</p>
+<ol style="list-style-type: decimal">
+<li>Open the schematic. Remove the SMD connector, J1.</li>
+<li>Generate the schematic netlist.</li>
+<li>Generate the .cmp file. (The J2 connector will be the only component in it.)</li>
+<li>Open the PCB. Hover your mouse over the connector and hit <strong>e</strong> to edit it. Select the J1 SMD connector. In the <strong>Move and Place</strong> section of the <strong>Footprint Properties</strong> window, select the <strong>Free</strong> radio button. Then click <strong>OK</strong>. The SMD connector should now be unlocked so it can be removed.</li>
+<li>Read in the netlist from the schematic. In the <strong>Extra Footprints</strong> section of the <strong>Netlist</strong> dialog window, select the <strong>Delete</strong> radio button. Then click <strong>Read Current Netlist</strong>. The J1 SMD connector should disappear. Then click <strong>Close</strong>.</li>
+<li>Finally, delete the upper two arcs and the edge of the board outline.</li>
+</ol>
+<p>To use the Raspberry Pi Hat template with the SMD connector, do the following:</p>
+<ol style="list-style-type: decimal">
+<li>Open the schematic. Remove the through-hole connector, J2.</li>
+<li>Generate the schematic netlist.</li>
+<li>Generate the .cmp file. (The J1 connector will be the only component in it.)</li>
+<li>Open the PCB. Hover your mouse over the connector and hit <strong>e</strong> to edit it. Select the J2 through-hole connector. In the <strong>Move and Place</strong> section of the <strong>Footprint Properties</strong> window, select the <strong>Free</strong> radio button. Then click <strong>OK</strong>. The through-hole connector should now be unlocked so it can be removed.</li>
+<li>Read in the netlist from the schematic. In the <strong>Extra Footprints</strong> section of the <strong>Netlist</strong> dialog window, select the <strong>Delete</strong> radio button. Then click <strong>Read Current Netlist</strong>. The J2 through-hole connector should disappear. Then click <strong>Close</strong>.</li>
+<li>Finally, delete the lower two arcs and the edge of the board outline.</li>
+</ol>
 <p>(c)2015 XESS Corp.</p>
 </body>
 </html>
