@@ -370,7 +370,7 @@
     (pad 40 thru_hole oval (at 1.27 24.13 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 80 "Net-(J2-Pad40)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x20.wrl
-      (at (xyz 0.05 -0.95 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
