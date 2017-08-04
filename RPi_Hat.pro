@@ -1,4 +1,4 @@
-update=08/04/2017 11:55:06 AM
+update=08/04/2017 12:31:54 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -59,4 +59,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=xess

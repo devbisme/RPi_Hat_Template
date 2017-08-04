@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\xesscorp\KiCad\template\RPi_Hat\RPi_Hat.sch)
-    (date "08/04/2017 11:56:29 AM")
+    (date "08/04/2017 12:40:18 PM")
     (tool "Eeschema (2017-08-01 revision 9cbcb3224)-makepkg")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,17 +29,17 @@
     (comp (ref J1)
       (value RPi_GPIO)
       (footprint RPi_Hat:Samtec_HLE-120-02-XXX-DV-BE-XX-XX)
-      (libsource (lib xess) (part RPi_GPIO))
+      (libsource (lib RPi_Hat-cache) (part RPi_GPIO))
       (sheetpath (names /RPi_GPIO/) (tstamps /5515D395/))
       (tstamp 5515D39E))
     (comp (ref J2)
       (value RPi_GPIO)
       (footprint RPi_Hat:Pin_Header_Straight_2x20)
-      (libsource (lib xess) (part RPi_GPIO))
+      (libsource (lib RPi_Hat-cache) (part RPi_GPIO))
       (sheetpath (names /RPi_GPIO/) (tstamps /5515D395/))
       (tstamp 5516AE26)))
   (libparts
-    (libpart (lib xess) (part RPi_GPIO)
+    (libpart (lib RPi_Hat-cache) (part RPi_GPIO)
       (fields
         (field (name Reference) J)
         (field (name Value) RPi_GPIO))
@@ -85,8 +85,8 @@
         (pin (num 39) (name GND) (type power_in))
         (pin (num 40) (name BCM21_SCLK) (type BiDi)))))
   (libraries
-    (library (logical xess)
-      (uri C:\xesscorp\KiCad\libraries\xess.lib)))
+    (library (logical RPi_Hat-cache)
+      (uri C:\xesscorp\KiCad\template\RPi_Hat\RPi_Hat-cache.lib)))
   (nets
     (net (code 1) (name "Net-(J2-Pad20)")
       (node (ref J2) (pin 20)))
