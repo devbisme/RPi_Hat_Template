@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# RPi_Hat-rescue_RPi_GPIO
+# RPi_GPIO
 #
-DEF RPi_Hat-rescue_RPi_GPIO J 0 40 Y Y 1 F N
+DEF RPi_GPIO J 0 40 Y Y 1 F N
 F0 "J" 750 250 60 H V C CNN
-F1 "RPi_Hat-rescue_RPi_GPIO" 750 150 60 H V C CNN
+F1 "RPi_GPIO" 750 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
