@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:RPi_Hat-cache
+LIBS:RPi_Hat
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RPi_Hat-rescue:RPi_GPIO J1
+L RPi_Hat:RPi_GPIO J1
 U 1 1 5515D39E
 P 2750 2700
 AR Path="/5515D39E" Ref="J1"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "" H 2750 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RPi_Hat-rescue:RPi_GPIO J2
+L RPi_Hat:RPi_GPIO J2
 U 1 1 5516AE26
 P 7500 2700
 AR Path="/5516AE26" Ref="J2"  Part="1" 
