@@ -15,7 +15,7 @@ Both a thru-hole and a surface mount connector are provided, along with a differ
 PCB edge for each. Just keep the PCB edge and connector type that you're using for your design
 and delete the others.
 
-The component footprints used in this template are [here](https://github.com/xesscorp/RPi_Hat.pretty).
+The component footprints used in this template are [here](https://github.com/devbisme/RPi_Hat.pretty).
 
 The board outline looks like this:
 
@@ -42,4 +42,4 @@ To use the Raspberry Pi Hat template with the SMD connector, do the following:
 5. Read in the netlist from the schematic. In the **Extra Footprints** section of the **Netlist** dialog window, select the **Delete** radio button. Then click **Read Current Netlist**. The J2 through-hole connector should disappear. Then click **Close**.
 6. Finally, delete the lower two arcs and the edge of the board outline.
 
-(c)2015 XESS Corp.
+(c)2015-2021 Dave Vandenbout.
