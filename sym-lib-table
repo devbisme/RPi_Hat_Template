@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name RPi_Hat)(type Legacy)(uri ${KIPRJMOD}/RPi_Hat.lib)(options "")(descr ""))
-)
